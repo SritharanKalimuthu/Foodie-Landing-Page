@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.foodie__hero-section1{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(75deg, rgba(255,255,255,1) 30%, rgba(242,216,134,1) 82%);
+    background: -webkit-linear-gradient(75deg, rgba(255,255,255,1) 30%, rgba(242,216,134,1) 82%);
+    background: linear-gradient(75deg, rgba(255,255,255,1) 30%, rgba(242,216,134,1) 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f2d886",GradientType=1);
+}
+
+.foodie__header-nav{
+    display: flex;
+
+}
+
+.foodie__header-nav>ul{
+    list-style: none;
+    display: flex;
+}
