@@ -5,13 +5,14 @@
 
 :root{
     --orange:#ff8b1f;
-    --grayish-white:#8b89898a;
+    --grayish-white:#c9c9c98a;
     --grayish-blue:#98a1f359;
     --text-gray:#474747;
 }
 
 body{
     font-family: "Catamaran",san-serif;
+    overflow-x: hidden;
 }
 
 .foodie__hero-section1{
