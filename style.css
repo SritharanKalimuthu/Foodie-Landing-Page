@@ -434,3 +434,129 @@ figure>img{
     font-size: 1.1rem;
     font-weight: 500;
 }
+
+@media screen and (max-width:540px) {
+    
+    .foodie__header-nav{
+        padding: 1rem;
+    }
+    
+    .foodie__header-nav>h1{
+        margin: 0;
+    }
+    
+    .foodie__header-nav>ul{
+        display: none;
+    }
+
+    
+    .foodie__header-nav>div>span{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .foodie__section1{
+        flex-direction: column;
+        background-image: url(assets/images/grill-catering.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .foodie__section1-content{
+        text-align: center;
+        width: auto;
+        padding:5rem;
+        backdrop-filter: blur(20px);
+    }
+
+    .foodie__section1-content>h3{
+        font-size: 1.8rem;
+    }
+
+    .foodie__section1-content>h2{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .foodie__section1-content>p{
+        color: #ffff;
+    }
+
+    .foodie__section1-content>div>p{
+        margin: 0 1.5rem 0 0;
+    }
+    
+    figure{
+        display: none;
+    }
+    
+    .foodie__section2-content{
+        flex-direction: column;
+    }
+    
+    .foodie__section3>p{
+        padding: 2rem;
+    }
+    
+    .foodie__section4{
+        flex-direction: column;
+    }
+    
+    .foodie__section4-table{
+        margin:1rem;
+        padding: 2rem;
+        width: auto;
+    }
+    
+    .foodie__section5>p,.foodie__section5>span{
+        padding: 2rem;
+    }
+    
+    .foodie__section5>span{
+        padding: 2rem;
+    }
+    
+    .foodie__section6>h2{
+        padding: 1rem;
+    }
+    
+    .foodie__section6>p>input{
+        margin:0;
+        padding: 1.5rem;
+        width: auto;
+    }
+    
+    .foodie__footer-box{
+        flex-direction: column;
+    }
+    
+    .foodie__footer-list>h4{
+        color: var(--orange);
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .foodie__footer-list>p{
+        margin: 1rem 0;
+        width: 15rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .foodie__footer-list>ul{
+        list-style: none;
+    }
+    
+    .foodie__footer-list>ul>li{
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .foodie__footer>span{
+        color: var(--text-gray);
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
